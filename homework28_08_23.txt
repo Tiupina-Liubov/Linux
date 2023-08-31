@@ -1,0 +1,13 @@
+[ec2-user@ip-172-31-33-20 Tiupina_Liubov]$ ls -a
+
+.  ..  .testscript.sh  .testscript.sh.swp  file.txt
+
+[ec2-user@ip-172-31-33-20 Tiupina_Liubov]$ cat .testscript.sh
+
+#!/bin/bash
+whoami
+cd /opt/240723_evening/Tiupina_Liubov&&pwd
+ps -ef
+echo "done"
+
+[ec2-user@ip-172-31-33-20 Tiupina_Liubov]$ 
